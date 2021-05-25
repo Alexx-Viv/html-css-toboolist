@@ -76,7 +76,7 @@ header {
 }
 
 .check {
-  margin-right: 5px;;
+  margin-right: 5px;
   padding: 0px 2px;
   color: #96d4c4;
   border: 1px solid #96d4c4;
@@ -90,3 +90,38 @@ header {
   border: 1px solid #f07f79;
   border-radius: 50%;
 }
+
+/* Tags */
+.tags {
+  color: #fff;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 12px;
+  display: inline-block;
+}
+
+/* Colors */
+#blue {
+  background-color: #46adf1;
+}
+#orange{
+  background-color: #F29E33;
+}
+
+#purple{
+  background-color: #9C72E4;
+}
+
+#light_green{
+  background-color: #B0C925;
+}
+
+#dark_green{
+  background-color: #64C0A9;
+}
+
+#pink{
+  background-color: #D763A1;
+}
+
