@@ -1,13 +1,27 @@
 /* Reset */
 * {
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   margin: 0;
+  font-family: sans-serif;
 }
 
 /* General */
 body {
   background-color: #f6f8f9;
 }
+
+.container {
+  width: 800px;
+  height: 600px;
+  background-color: #fff;
+  margin: auto;
+  margin-top: 40px;
+  border-radius: 1%;
+}
+
+/* hr {
+  border: 1px solid #f6f8f9;
+} */
 
 /* Header */
 .box_logo {
@@ -23,7 +37,35 @@ body {
 }
 
 .app_name {
-  font-family: sans-serif;
   font-size: 36px;
   margin-left: 5px;
+}
+
+/* Main */
+
+.button_section {
+  height: 50px;
+  background-color: red;
+}
+
+.button {
+  /* display: inline-block; */
+  /* font-size: 12px; */
+  /* margin-top: 12px; */
+  vertical-align: middle;
+}
+
+/* .left {
+  margin-left: 50px;
+}
+
+.right {
+  margin-left: 10px;
+} */
+
+#active {
+  background-color: #46adf1;
+  height: 50%;
+  /* border-radius: 10%; */
+  /* color: #fff; */
 }
