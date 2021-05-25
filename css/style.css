@@ -1,71 +1,65 @@
 /* Reset */
 * {
-  /* box-sizing: border-box; */
+  box-sizing: border-box;
   margin: 0;
-  font-family: sans-serif;
+  padding: 0;
 }
-
 /* General */
 body {
   background-color: #f6f8f9;
+  font-family: Arial, sans-serif;
 }
-
 .container {
   width: 800px;
   height: 600px;
   background-color: #fff;
   margin: auto;
-  margin-top: 40px;
-  border-radius: 1%;
 }
 
-/* hr {
+hr {
   border: 1px solid #f6f8f9;
-} */
+}
 
 /* Header */
-.box_logo {
+header {
   height: 70px;
   background-color: #fff;
-  display: flex;
-  align-items: center;
+  margin-bottom: 40px;
+  padding: 10px 20px;
 }
-
 .logo_icon {
-  display: inline-block;
-  margin-left: 20px;
+  height: 100%;
+  vertical-align: middle;
 }
-
 .app_name {
-  font-size: 36px;
-  margin-left: 5px;
-}
-
-/* Main */
-
-.button_section {
-  height: 50px;
-  background-color: red;
+  font-size: 38px;
+  font-weight: 900;
+  vertical-align: middle;
 }
 
 .button {
+  text-align: center;
+  width: 85px;
+  height: 25px;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 12px;
   display: inline-block;
-  /* font-size: 12px; */
-  /* margin-top: 12px; */
-  margin-top: auto;
 }
 
-/* .left {
-  margin-left: 50px;
-}
-
-.right {
-  margin-left: 10px;
-} */
-
-#active {
+#task {
   background-color: #46adf1;
-  height: 50%;
-  /* border-radius: 10%; */
-  /* color: #fff; */
+  margin: 10px;
+  margin-left: 50px;
+  color: white;
+}
+
+#section {
+  border: 1px solid lightgrey;
+
+  color: lightgrey;
+}
+
+.button_father {
+  padding-top: 1px;
 }
