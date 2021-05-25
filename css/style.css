@@ -49,10 +49,10 @@ body {
 }
 
 .button {
-  /* display: inline-block; */
+  display: inline-block;
   /* font-size: 12px; */
   /* margin-top: 12px; */
-  vertical-align: middle;
+  margin-top: auto;
 }
 
 /* .left {
