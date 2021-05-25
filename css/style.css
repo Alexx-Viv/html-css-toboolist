@@ -37,6 +37,7 @@ header {
   vertical-align: middle;
 }
 
+/* Buttons */
 .button {
   text-align: center;
   width: 85px;
@@ -45,21 +46,24 @@ header {
   border-radius: 5px;
   font-size: 12px;
   display: inline-block;
+  margin: 10px;
 }
 
 #task {
   background-color: #46adf1;
-  margin: 10px;
   margin-left: 50px;
   color: white;
 }
 
 #section {
+  margin-left: -10px;
+  height: 26px;
   border: 1px solid lightgrey;
-
   color: lightgrey;
 }
 
-.button_father {
-  padding-top: 1px;
+.calendar {
+  margin-left: 50px;
+  margin-top: 30px;
+  color: #444851;
 }
